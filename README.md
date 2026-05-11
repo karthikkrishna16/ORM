@@ -1,5 +1,5 @@
 # Ex01 Django ORM Web Application
-## Date: 
+## Date: 2/5/2026
 
 ## AIM
 To develop a Django Application to store and retrieve data from an Online Food Delivery Database platform like Zomato or Swiggy using Object Relational Mapping(ORM).
@@ -19,6 +19,7 @@ Create a new app in Django project
 ### STEP 3:
 Enter the code for admin.py and models.py
 
+
 ### STEP 4:
 Detect changes and create migration files that describe how to modify the database schema
 
@@ -36,10 +37,34 @@ Execute Django admin using localhost and create details for 10 entries
 
 ## PROGRAM
 
+```
+admin.py
+
+from django.contrib import admin
+from .models import Employee,EmployeeAdmin
+admin.site.register(Employee,EmployeeAdmin)
+
+
+models.py
+
+from django.db import models
+from django.contrib import admin
+
+class Employee (models.Model):
+    eid=models.CharField(max_length=20,help_text="Employee_ID")
+    name = models.CharField(max_length=100)
+    salary = models.IntegerField()
+    age = models.IntegerField()
+    email = models.EmailField()
+
+class EmployeeAdmin(admin.ModelAdmin):
+    list_display=('eid','name','salary','age','email')
+
+```
 
 
 ## OUTPUT
-
+![alt text](orm.png)
 
 
 ## RESULT

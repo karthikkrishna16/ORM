@@ -6,7 +6,7 @@ To develop a Django Application to store and retrieve data from an Online Food D
 
 ## ENTITY RELATIONSHIP DIAGRAM
 
-![alt text](<WhatsApp Image 2024-10-28 at 5.53.49 PM.jpeg>)
+(<WhatsApp Image 2024-10-28 at 5.53.49 PM.jpeg>)
 
 ## DESIGN STEPS
 

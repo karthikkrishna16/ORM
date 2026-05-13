@@ -6,7 +6,8 @@ To develop a Django Application to store and retrieve data from an Online Food D
 
 ## ENTITY RELATIONSHIP DIAGRAM
 
-![alt text](<WhatsApp Image 2024-10-28 at 5.53.49 PM.jpeg>)
+<img width="916" height="526" alt="{B6BD2335-799D-458B-8B9C-CBD3C5B6CF5B}" src="https://github.com/user-attachments/assets/00ddf656-62f8-460d-a1b2-1467acaea93d" />
+
 
 ## DESIGN STEPS
 

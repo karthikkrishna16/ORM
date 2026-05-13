@@ -64,7 +64,7 @@ class EmployeeAdmin(admin.ModelAdmin):
 
 
 ## OUTPUT
-![alt text](orm.png)
+<img width="1045" height="487" alt="{94425086-930C-48AE-B6CD-F537DF729B51}" src="https://github.com/user-attachments/assets/4e08dc04-c052-4680-8151-89cdbc822ded" />
 
 
 ## RESULT

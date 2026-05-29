@@ -38,30 +38,34 @@ Execute Django admin using localhost and create details for 10 entries
 
 ## PROGRAM
 
-```
+~~~
 admin.py
 
 from django.contrib import admin
-from .models import Employee,EmployeeAdmin
-admin.site.register(Employee,EmployeeAdmin)
 
+# Register your models here.
+from .models import bankloan,bankloanAdmin
+admin.site.register(bankloan,bankloanAdmin)
+~~~
 
+~~~
 models.py
 
 from django.db import models
+
+# Create your models here.
 from django.contrib import admin
+class bankloan(models.Model):
+    accno=models.IntegerField(primary_key=True);
+    name=models.CharField(max_length=100);
+    loanamt=models.IntegerField();
+    loanlimit=models.IntegerField();
+    phoneno=models.IntegerField();
 
-class Employee (models.Model):
-    eid=models.CharField(max_length=20,help_text="Employee_ID")
-    name = models.CharField(max_length=100)
-    salary = models.IntegerField()
-    age = models.IntegerField()
-    email = models.EmailField()
+class bankloanAdmin(admin.ModelAdmin):
+    list_display=('accno','name','loanamt','loanlimit','phoneno')
+~~~
 
-class EmployeeAdmin(admin.ModelAdmin):
-    list_display=('eid','name','salary','age','email')
-
-```
 
 
 ## OUTPUT

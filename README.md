@@ -69,7 +69,7 @@ class bankloanAdmin(admin.ModelAdmin):
 
 
 ## OUTPUT
-<img width="1045" height="487" alt="{94425086-930C-48AE-B6CD-F537DF729B51}" src="https://github.com/user-attachments/assets/4e08dc04-c052-4680-8151-89cdbc822ded" />
+<img width="1046" height="505" alt="image" src="https://github.com/user-attachments/assets/7b24d3b1-5d3f-4e8a-8c2e-8dbf1ecf1ba3" />
 
 
 ## RESULT
